@@ -17,7 +17,7 @@
     "zh",
     "ms"
   ],
-  "defaultLocale": "en",
+  "defaultLocale": "id",
   "pages": {
     "*": ["common", "error", "radio", "quick-links", "onboarding"],
     "/": ["home", "radio", "collection", "reading-goal", "reciter"],
