@@ -2,7 +2,7 @@ import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/do
 
 import { getDir } from '@/utils/locale';
 
-const DEFAULT_LOCALE = 'id';
+const DEFAULT_LOCALE = 'en';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
