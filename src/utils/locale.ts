@@ -200,7 +200,7 @@ export const getLanguageDataById = (languageId: number): LanguageData => {
   return {
     font: lang?.font,
     direction: lang?.dir || Direction.LTR,
-    code: lang?.locale || 'en',
+    code: lang?.locale || 'id',
   };
 };
 
