@@ -1,4 +1,4 @@
-const getLocalePostfix = (locale: string) => (locale !== 'id' ? `/${locale}` : '');
+const getLocalePostfix = (locale: string) => (locale !== 'en' ? `/${locale}` : '');
 
 export const getCurrentPath = () => {
   if (typeof window !== 'undefined') {
