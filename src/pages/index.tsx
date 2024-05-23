@@ -41,16 +41,16 @@ const Index: NextPage<IndexProps> = ({ chaptersResponse: { chapters } }): JSX.El
         <div className={styles.flow}>
           <HomePageHero />
           <div className={classNames(styles.flowItem, styles.fullWidth)}>
-            <RamadanActivitiesSection />
-          </div>
-          <div className={classNames(styles.flowItem, styles.fullWidth)}>
-            <QuranGrowthJourneySection />
-          </div>
-          <div className={classNames(styles.flowItem, styles.fullWidth)}>
             <BookmarksAndCollectionsSection isHomepage />
           </div>
           <div className={styles.flowItem}>
             <ChapterAndJuzListWrapper chapters={chapters} />
+          </div>
+          <div className={classNames(styles.flowItem, styles.fullWidth)}> 
+            <RamadanActivitiesSection />
+          </div>
+          <div className={classNames(styles.flowItem, styles.fullWidth)}>
+            <QuranGrowthJourneySection />
           </div>
         </div>
       </div>
