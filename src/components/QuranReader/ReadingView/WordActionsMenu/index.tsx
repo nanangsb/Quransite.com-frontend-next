@@ -1,9 +1,11 @@
 import React from 'react';
 
 import QuranReflectButton from '../../QuranReflectButton';
+import CopyButton from '../CopyButton';
 
 import styles from './WordActionsMenu.module.scss';
 
+import QuestionsButton from '@/components/QuranReader/ReadingView/Buttons/QuestionsButton';
 import TranslationsButton from '@/components/QuranReader/ReadingView/TranslationsButton';
 import TafsirButton from '@/components/QuranReader/TafsirButton';
 import OverflowVerseActionsMenu from '@/components/Verse/OverflowVerseActionsMenu';
@@ -18,6 +20,7 @@ type Props = {
 const ReadingViewWordActionsMenu: React.FC<Props> = ({ word, onActionTriggered }) => {
   return (
     <div className={styles.container}>
+      <QuestionsButton verseKey={word.verseKey} onActionTriggered={onActionTriggered} />
       <TafsirButton
         verseKey={word.verseKey}
         isTranslationView={false}
@@ -36,6 +39,9 @@ const ReadingViewWordActionsMenu: React.FC<Props> = ({ word, onActionTriggered }
           onActionTriggered={onActionTriggered}
         />
       )}
+
+      <CopyButton verseKey={word.verseKey} onActionTriggered={onActionTriggered} />
+
       <div className={styles.readingViewOverflowVerseActionsMenu}>
         <OverflowVerseActionsMenu
           isTranslationView={false}

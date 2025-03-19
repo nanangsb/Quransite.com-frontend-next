@@ -102,8 +102,7 @@
   "command-bar": {
     "navigations": "Navigasi",
     "no-nav-results": "Tidak ada hasil navigasi",
-    "placeholder": "Apa yang ingin Anda baca?",
-    "powered-by": "Pencarian suara didukung oleh Tarteel.ai",
+    "placeholder": "Carilah di Al-Quran...",
     "recent-navigations": "Navigasi terbaru",
     "search-by-voice": "Cari dengan suara",
     "try-navigating": "Coba navigasikan ke"
@@ -122,9 +121,11 @@
     }
   },
   "continue": "Melanjutkan",
+  "contribute-to-our-mission": "Berkontribusi pada misi kami",
   "copied": "disalin",
   "copied-to-clipboard": "Disalin ke papan klip",
   "copy": "Salinan",
+  "copylink": "Salin tautan",
   "counter": {
     "decrease": "Mengurangi",
     "increase": "Meningkatkan"
@@ -134,6 +135,7 @@
   "developers": "Pengembang",
   "display": "Tampilan",
   "donate": "Menyumbang",
+  "donate-now": "Donasi sekarang",
   "donate_monthly": "Donasi setiap bulan",
   "donate_once": "Donasi satu kali",
   "edit": "Sunting",
@@ -145,6 +147,7 @@
     "resend-email-in": "Kirim ulang email verifikasi dalam {{remainingTime}} detik...",
     "verify-code": "Kode verifikasi"
   },
+  "end-year-donate": "Akhiri tahun 2024 dengan Sedekah ❤️",
   "error": {
     "MediaVersesRangeLimitExceeded": "Anda hanya dapat memilih hingga {{limit}} ayat dalam satu waktu. Harap pilih rentang yang lebih kecil.",
     "bookmark-sync": "Penanda tidak sinkron.",
@@ -155,6 +158,34 @@
     "ranges-no-value": "Rentang awal dan akhir harus memiliki nilai",
     "ranges-too-many-verses": "*Jumlah ayat maksimum {{maxNumberOfVerses}} ayat",
     "ranges-wrong-order": "Bait pembuka harus sebelum bait penutup."
+  },
+  "errors": {
+    "account-banned": "Maaf, akun Anda diblokir. Hubungi Yayasan Quran",
+    "badRequest": "*Permintaan tidak valid",
+    "banned": "*Maaf, akun Anda diblokir. Hubungi Yayasan Quran",
+    "confirm": "*Konfirmasi kata sandi tidak cocok dengan kata sandi",
+    "email": "*Format Email Salah!",
+    "exactLength": "*Nilai harus memiliki panjang yang tepat",
+    "expiredToken": "*Token ini sudah kadaluarsa",
+    "forgot-password-failed": "Gagal mengirim email pengaturan ulang kata sandi. Silakan coba lagi.",
+    "immutable": "*Nilai ini tidak dapat diubah",
+    "invalid": "* {{fieldName}} ini tidak valid",
+    "invalidEmailOrPassword": "*Email atau kata sandi tidak valid",
+    "max": "* {{fieldName}} harus kurang dari atau sama dengan {{max}} digit",
+    "min": "* {{fieldName}} harus lebih dari atau sama dengan {{min}} digit",
+    "name": "* {{fieldName}} harus berupa huruf dan angka saja",
+    "notFound": "*Tidak ditemukan",
+    "required": "* {{fieldName}} hilang!",
+    "reset-password-failed": "Gagal mengatur ulang kata sandi. Silakan coba lagi.",
+    "signin-failed": "Gagal masuk. Silakan coba lagi.",
+    "signup-failed": "Pendaftaran gagal. Silakan coba lagi.",
+    "taken": "* {{fieldName}} sudah ada!",
+    "usedToken": "*Token ini sudah digunakan",
+    "username": "* {{fieldName}} hanya menerima garis bawah dan huruf",
+    "verification-code-invalid": "Kode verifikasi ini tidak valid",
+    "verification-code-length": "Kode verifikasi harus {{length}} digit",
+    "verification-failed": "Verifikasi gagal. Silakan coba lagi.",
+    "verification-resend-failed": "Gagal mengirim ulang kode verifikasi"
   },
   "exciting-updates": "Pembaruan Menarik",
   "feedback": "Beri Masukan",
@@ -178,20 +209,25 @@
     "translation-font-size": "Ukuran font terjemahan"
   },
   "footer": {
-    "description": "Quran.com adalah Sadaqah Jariyah. Kami berharap setiap orang dapat membaca, mempelajari, dan memahami Al-Quran dengan lebih mudah. Al-Qur'an Mulia mempunyai banyak nama di antaranya Al-Qur'an Al-Karim, Al-Kitab, Al-Furqan, Al-Maw'itha, Al-Zikir, dan Al-Nur.",
+    "description": "Quran.com adalah platform tepercaya yang digunakan oleh jutaan orang di seluruh dunia untuk membaca, mencari, mendengarkan, dan merenungkan Al-Quran dalam berbagai bahasa. Platform ini menyediakan terjemahan, tafsir, bacaan, terjemahan kata demi kata, dan berbagai alat untuk mempelajari Al-Quran lebih dalam, sehingga Al-Quran dapat diakses oleh semua orang. <br/> <br/> Sebagai Sadaqah Jariyah, Quran.com didedikasikan untuk membantu orang-orang terhubung secara mendalam dengan Al-Quran. Didukung oleh <link>Quran.Foundation</link>, sebuah organisasi nirlaba 501(c)(3), Quran.com terus berkembang sebagai sumber informasi gratis dan berharga bagi semua orang, Alhamdulillah”",
     "hiring": "Kami sedang merekrut! Bergabunglah dengan tim QuranFoundation dan berkontribusi pada misi kami. <link> Daftar sekarang! </link>",
     "rights": "Hak Cipta Terlindungi",
-    "title": "Baca, pelajari, dan pahami Al-Qur'an Mulia."
+    "title": "Baca, Dengarkan, Cari, dan Renungkan Al-Quran"
   },
   "form": {
     "body": "Tubuh",
     "code": "Kode verifikasi",
+    "confirm-password": "Konfirmasi Kata Sandi",
     "email": "Email",
     "firstName": "Nama depan",
     "lastName": "Nama keluarga",
-    "title": "Judul"
+    "password": "Kata sandi",
+    "title": "Judul",
+    "username": "Nama belakang",
+    "verification-code": "Kode Verifikasi"
   },
   "from": "Dari",
+  "fundraising-share-title": "Bagikan Penggalangan Dana Quran.com",
   "fundraising-sticky-banner": {
     "cta": "Menyumbang",
     "title": "Menyumbang di hari-hari terbaik!"
@@ -200,7 +236,8 @@
     "description": "Donasi bulanan membantu kami meningkatkan Quran.com dan melanggengkan operasional sehingga kami tidak terlalu fokus pada penggalangan dana tetapi lebih pada penciptaan dampak.",
     "title": "Menjadi Donatur Bulanan"
   },
-  "hear-it-pronounced": "Klik kata apa saja, dengarkan pengucapannya!",
+  "get-started": "Memulai",
+  "hear-it-pronounced": "Klik kata-kata Al-Quran, dengarkan pengucapannya",
   "help": "Bantuan",
   "hizb": "Hizb",
   "home": "Halaman Utama",
@@ -215,6 +252,7 @@
   "learn-more": "Pelajari lebih lanjut",
   "learning-plans": "Rencana Pembelajaran",
   "less": "Kurang",
+  "lessons": "Pelajaran",
   "loading": "Memuat",
   "login": "Login",
   "logout": "Logout",
@@ -248,12 +286,14 @@
   "off": "Mati",
   "oldest": "Paling Lama",
   "on": "Hidup",
+  "our-projects": "Proyek Kami",
   "page": "Halaman",
   "pages": "halaman-halaman",
   "pagination-summary": "{{currentResultNumber}} - {{endOfResultNumber}} dari {{totalNumberOfResults}} hasil pencarian",
   "pbuh": "Berkah Allah atasnya",
   "popular-links": "Link populer",
   "popup": {
+    "companion-title": "Wahai Sahabat Al-Quran yang terkasih,",
     "footnote": "Donasi bulanan memungkinkan kami untuk tidak terlalu fokus pada penggalangan dana",
     "text-1": "Kami berkomitmen untuk melayani dunia pengetahuan dan teknologi Qur'ani, selalu gratis.",
     "text-2": "Kesempatan sempurna untuk Sedekah Jariyah. Investasi untuk Akhirat Anda dengan menjadi donor bulanan (atau donor satu kali).",
@@ -269,6 +309,7 @@
   "privacy": "Kerahasiaan",
   "product-updates": "Pengkinian Produk",
   "profile": "Profil",
+  "projects-desc": "Proyek nirlaba yang dimiliki, dikelola, atau disponsori oleh <link>Quran.Foundation</link>",
   "q-reflect": "QuranReflect",
   "quran-com": "Quran.com",
   "quran-radio": "Radio Qur'an",
@@ -277,12 +318,14 @@
     "reading": "Membaca",
     "translation": "Terjemahan"
   },
+  "ready-for-ramadan": "Siap untuk Ramadan?",
   "recitation": "Pembacaan",
   "reciter": "Qari",
   "reciter-summary": "(Dengan izin dari Pusat Tafsir)",
   "reciters": "Qari",
   "reflect": "Mencerminkan",
   "reflections": "Refleksi",
+  "reflections-and-lessons": "Refleksi dan Pelajaran",
   "remove": "Keluarkan",
   "rename": "Ganti nama",
   "retry": "Coba Lagi",
@@ -292,10 +335,12 @@
   "save-to-collection": "Simpan ke Koleksi",
   "search-for": "Cari '{{searchQuery}}'",
   "search-results": "{{count}} hasil penelusuran",
+  "search-results-no-count": "Hasil Pencarian",
   "search": {
     "filters": "Filter",
     "hint": "Coba cari",
     "jump-to": "Langsung Ke",
+    "more-results": "Hasil lebih lanjut",
     "no-results": "Tidak ada hasil yang ditemukan",
     "no-results-suggestion": "Kami tidak dapat menemukan hasil pencarian yang cocok untuk \" {{searchQuery}} \". coba menggunakan kata kunci yang berbeda.",
     "popular": "Pencarian Populer",
@@ -336,8 +381,10 @@
     "search-juz": "Cari Juz",
     "search-page": "Cari Halaman",
     "search-surah": "Cari Surah",
+    "search-verse": "Pencarian Ayat",
     "try-navigating-with": "Tips: coba navigasi dengan"
   },
+  "sign-in": "Masuk",
   "sitemap": "Peta situs",
   "sort": {
     "ascending": "menaik",
@@ -357,10 +404,6 @@
     "tafsir-desc": "Baca {{tafsirName}} untuk Ayat {{verseNumber}} Surah {{SurahName}}",
     "tafsirs-desc": "Baca berbagai Tafsir Ayat {{ayahNumber}} Surah {{SurahName}} oleh ulama Tafsir terpercaya",
     "title": "tafsir"
-  },
-  "tarteel": {
-    "app": "Aplikasi Tarteel",
-    "name": "Tarteel.ai"
   },
   "terms-and-conditions": "syarat dan Ketentuan",
   "theme": "Tema",
@@ -396,13 +439,13 @@
   "view": "Melihat",
   "voice": {
     "ask-permission": "Mohon izin mikrofon untuk mulai menggunakan Pencarian Suara",
-    "error": "Terjadi kesalahan, coba lagi nanti. Atau unduh",
-    "no-permission": "Sepertinya Anda tidak mengaktifkan izin menggunakan mikrofon. Harap aktifkan izin mikrofon dan coba lagi atau unduh",
-    "not-supported": "Sepertinya browser Anda tidak mendukung mikrofon. Silakan coba browser lain atau unduh",
+    "error": "Telah terjadi kesalahan, coba lagi nanti.",
+    "no-permission": "Sepertinya Anda tidak mengaktifkan izin mikrofon. Harap aktifkan izin mikrofon dan coba lagi.",
+    "not-supported": "Sepertinya browser Anda tidak mendukung mikrofon. Coba browser lain.",
     "suggest": "Baca ayatnya, maka ayat akan mulai muncul",
     "suggest-subtitle": "Baca ayat apa saja dalam bahasa Arab, dan ayat itu akan muncul",
     "suggest-title": "Baca sekarang",
-    "voice-search-powered-by": "Pencarian Suara dipersembahkan oleh"
+    "voice-search-powered-by": "Pencarian Suara Didukung oleh"
   },
   "wbw": "Kata per kata",
   "wbw-lang-summary": "Sumber terjemahan kata per kata: <link> {{source}} </link> . Sumber ini tidak tergantung pada pemilihan terjemahan ayat.",

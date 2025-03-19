@@ -29,14 +29,6 @@ const DevelopersPage = () => {
           <p>{t('main-desc')}</p>
           <p>
             <Trans
-              i18nKey="developers:sub-main-desc"
-              components={[
-                <a key={0} href="https://tarteel.ai" target="_blank" rel="noreferrer" />,
-              ]}
-            />
-          </p>
-          <p>
-            <Trans
               i18nKey="developers:projects.all"
               components={[
                 <a key={0} href="https://github.com/quran" target="_blank" rel="noreferrer" />,
@@ -76,7 +68,7 @@ const DevelopersPage = () => {
                 components={[
                   <a
                     key={0}
-                    href="https://api-docs.quran.com/docs/category/quran.com-api"
+                    href="https://api-docs.quran.foundation"
                     target="_blank"
                     rel="noreferrer"
                   />,
