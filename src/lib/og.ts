@@ -19,6 +19,9 @@ export const getMediaGeneratorOgImageUrl = ({ locale }: BaseOgOptions) =>
 export const getPreparingForRamadanOgImageUrl = ({ locale }: BaseOgOptions) =>
   `${BASE_OG_URL}/api/og/preparing-for-ramadan?lang=${locale}`;
 
+export const getBeyondRamadanOgImageUrl = ({ locale }: BaseOgOptions) =>
+  `${BASE_OG_URL}/api/og/beyond-ramadan?lang=${locale}`;
+
 export const getChapterOgImageUrl = ({
   chapterId,
   locale,
@@ -38,3 +41,6 @@ export const getWhatIsRamadanOgImageUrl = ({ locale }: BaseOgOptions) =>
 
 export const getExploreAnswersOgImageUrl = ({ locale }: BaseOgOptions) =>
   `${BASE_OG_URL}/api/og/explore-answers?lang=${locale}`;
+
+export const getQuranicCalendarOgImageUrl = ({ locale }: BaseOgOptions) =>
+  `${BASE_OG_URL}/api/og/calendar?lang=${locale}`;

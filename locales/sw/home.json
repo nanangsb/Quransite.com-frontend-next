@@ -1,10 +1,12 @@
 {
   "achieve-quran-goals": "Fikia Malengo yako ya Quran",
   "begin": "Anza",
+  "calendar-cta": "Kalenda",
   "chapters-and-verses": "Sura na Aya",
   "continue-read": "Endelea Kusoma",
   "explore-topics": "Chunguza Mada",
   "first-time-reading": "Mpya kwa Quran? <link> Anzia hapa </link>",
+  "grow-beyond-ramadan": "Kua nasi <modalLink> Zaidi ya Ramadhani </modalLink>",
   "know-someone": "Kua nasi katika <modalLink> Ramadhani </modalLink>",
   "learning-plan": "Mipango ya Kujifunza",
   "listen-to-radio": "Sikiliza Quran Radio",
@@ -36,6 +38,8 @@
     "title": "Kuza safari yako na Qur'ani"
   },
   "qr-community": "Soma Mistari na Tafakari ya leo",
+  "quran-in-year": "Quran ndani ya Mwaka",
+  "quran-in-year-cta": "Usomaji wa Wiki Hii",
   "ramadan-activities-cta": "<link> Fuata <b> Global Quranic Calendar </b> kwa usomaji wa kila wiki, podikasti za kusisimua, na wito wa kutafakari! </link>",
   "ramadan": {
     "header": "Vyombo vya Kukuza Uhusiano Wako na Quran",

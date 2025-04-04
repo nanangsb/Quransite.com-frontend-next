@@ -93,6 +93,7 @@
   "ayah": "Ayah",
   "ayahs": "Ayahs",
   "beta": "Beta",
+  "beyond-ramadan": "Grow Beyond Ramadan!",
   "bookmark": "Bookmark",
   "bookmarked": "Bookmarked",
   "both": "Both",
@@ -108,9 +109,9 @@
     "try-navigating": "Try navigating to"
   },
   "community": {
-    "cta": "Join Community",
-    "header": "Join the QDC Community of Muslim builders and technologists.",
-    "sub-header": "Sign up for the Quran.com Discord to participate and collaborate with the leading community building Islamic tech.",
+    "cta": "Get in touch",
+    "header": "Want to contribute your technical skills to further the mission of the Quran?",
+    "sub-header": "Share your interest by filling out this form, and we’ll reach out when a suitable opportunity is available, insha’Allah.",
     "title": "Community"
   },
   "complete-sign-up": "Complete your registration",
@@ -297,7 +298,7 @@
     "footnote": "Monthly donations allow us to focus less on fundraising",
     "text-1": "We are committed to serving the world Quranic knowledge and technology, always for free.",
     "text-2": "The perfect opportunity for continous charity (Sadaqa Jariyah). Invest in your Hereafter as a monthly (or one time) donor.",
-    "title": "Give During The Best Days!"
+    "title": "Dear Companion of the Quran,"
   },
   "powered-by": "Powered by",
   "prepare-hearts": {
@@ -435,11 +436,13 @@
   "verse": "Verse",
   "verse-bookmark-removed": "Verse bookmark removed!",
   "verse-bookmarked": "Verse bookmarked!",
+  "verse-copied": "Verse has been copied to the clipboard!",
   "verses": "Verses",
   "view": "View",
   "voice": {
     "ask-permission": "Please enable microphone permission to start using Voice Search",
     "error": "An error has occurred, please try again ({{errorCode}}).",
+    "language-unavailable": "Arabic is not supported by your browser.",
     "network": "Network error. Please check your internet connection and try again.",
     "no-microphone": "No microphone detected. Please connect a microphone and try again.",
     "no-permission": "It looks like you do not have the microphone permissions enabled. Please enable the microphone permissions and try again.",
@@ -448,7 +451,6 @@
     "suggest": "Please begin reciting and your verse will appear.",
     "suggest-subtitle": "Recite any verse in Arabic, and the verse will appear",
     "suggest-title": "Recite now",
-    "language-unavailable": "Arabic is not supported by your browser.",
     "voice-search-powered-by": "Voice Search Powered by"
   },
   "wbw": "Word By Word",

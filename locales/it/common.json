@@ -93,6 +93,7 @@
   "ayah": "Ayah",
   "ayahs": "ayah",
   "beta": "Beta",
+  "beyond-ramadan": "Cresci oltre il Ramadan!",
   "bookmark": "Segnalibro",
   "bookmarked": "Segnalibro",
   "both": "Entrambi",
@@ -108,9 +109,9 @@
     "try-navigating": "Prova a navigare in"
   },
   "community": {
-    "cta": "Unisciti alla comunità",
-    "header": "Unisciti alla comunità QDC di costruttori e tecnologi musulmani.",
-    "sub-header": "Iscriviti al Quran.com Discord per partecipare e collaborare con la principale tecnologia islamica per la costruzione di comunità.",
+    "cta": "Mettiti in contatto",
+    "header": "Vuoi contribuire con le tue competenze tecniche a promuovere la missione del Corano?",
+    "sub-header": "Condividi il tuo interesse compilando questo modulo e ti contatteremo quando sarà disponibile un'opportunità adatta, insha'Allah.",
     "title": "Comunità"
   },
   "complete-sign-up": "Completa la tua registrazione",
@@ -209,7 +210,7 @@
     "translation-font-size": "Dimensione del carattere della traduzione"
   },
   "footer": {
-    "description": "Quran.com è una piattaforma affidabile utilizzata da milioni di persone in tutto il mondo per leggere, cercare, ascoltare e riflettere sul Corano in più lingue. Fornisce traduzioni, tafsir, recitazioni, traduzione parola per parola e strumenti per uno studio più approfondito, rendendo il Corano accessibile a tutti. <br/> <br/> In quanto Sadaqah Jariyah, Quran.com si dedica ad aiutare le persone a connettersi profondamente con il Corano. Supportato da <link>Quran.Foundation</link>, un'organizzazione non-profit 501(c)(3), Quran.com continua a crescere come una risorsa gratuita e preziosa per tutti, Alhamdullilah”",
+    "description": "Quran.com è una piattaforma affidabile utilizzata da milioni di persone in tutto il mondo per leggere, cercare, ascoltare e riflettere sul Corano in più lingue. Fornisce traduzioni, tafsir, recitazioni, traduzione parola per parola e strumenti per uno studio più approfondito, rendendo il Corano accessibile a tutti. <br/> <br/> In quanto Sadaqah Jariyah, Quran.com si dedica ad aiutare le persone a connettersi profondamente con il Corano. Supportato da <link>Quran.Foundation</link>, un'organizzazione non-profit 501(c)(3), Quran.com continua a crescere come una risorsa gratuita e preziosa per tutti, Alhamdullilah",
     "hiring": "Stiamo assumendo! Unisciti al team della QuranFoundation e contribuisci alla nostra missione. <link> Candidati ora! </link>",
     "rights": "Tutti i diritti riservati",
     "title": "Leggi, ascolta, cerca e rifletti sul Corano"
@@ -233,7 +234,7 @@
     "title": "Regala nei giorni migliori!"
   },
   "fundraising": {
-    "description": "Le donazioni mensili ci aiutano a migliorare Quran.com e a sostenere le operazioni, quindi ci concentriamo meno sulla raccolta fondi e più sulla creazione di impatto.",
+    "description": "Le donazioni mensili ci aiutano a migliorare Quran.com e a sostenere le attività, così possiamo concentrarci meno sulla raccolta fondi e di più sulla creazione di impatto.",
     "title": "Diventa un donatore mensile"
   },
   "get-started": "Iniziare",
@@ -297,7 +298,7 @@
     "footnote": "Le donazioni mensili ci consentono di concentrarci meno sulla raccolta fondi",
     "text-1": "Ci impegniamo a servire il mondo della conoscenza e della tecnologia coraniche, sempre gratuitamente.",
     "text-2": "L'occasione perfetta per una carità continua (Sadaqa Jariyah). Investi nel tuo Aldilà come donatore mensile (o una tantum).",
-    "title": "Regala nei giorni migliori!"
+    "title": "Caro compagno del Corano,"
   },
   "powered-by": "Offerto da",
   "prepare-hearts": {
@@ -435,12 +436,17 @@
   "verse": "Versetto",
   "verse-bookmark-removed": "Segnalibro versetto rimosso!",
   "verse-bookmarked": "Versetto aggiunto ai segnalibri!",
+  "verse-copied": "Il versetto è stato copiato negli appunti!",
   "verses": "versi",
   "view": "Visualizzazione",
   "voice": {
     "ask-permission": "Abilita l'autorizzazione del microfono per iniziare a utilizzare Ricerca vocale",
     "error": "Si è verificato un errore, riprova più tardi.",
+    "language-unavailable": "Il tuo browser non supporta l'arabo.",
+    "network": "Errore di rete. Controlla la tua connessione Internet e riprova.",
+    "no-microphone": "Nessun microfono rilevato. Collega un microfono e riprova.",
     "no-permission": "Sembra che non hai abilitato i permessi del microfono. Abilita i permessi del microfono e riprova.",
+    "no-speech": "Non è stato rilevato alcun discorso. Riprova a parlare.",
     "not-supported": "Sembra che il tuo browser non supporti il microfono. Prova un altro browser.",
     "suggest": "Per favore, inizia a recitare e il tuo verso apparirà.",
     "suggest-subtitle": "Recita qualsiasi versetto in arabo e il versetto apparirà",

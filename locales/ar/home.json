@@ -1,10 +1,12 @@
 {
   "achieve-quran-goals": "حقق أهدافك القرآنية",
   "begin": "يبدأ",
+  "calendar-cta": "تقويم",
   "chapters-and-verses": "الفصول والآيات",
   "continue-read": "متابعة القراءة",
   "explore-topics": "استكشاف المواضيع",
   "first-time-reading": "هل أنت جديد على القرآن الكريم؟ <link> ابدأ من هنا </link>",
+  "grow-beyond-ramadan": "انمو معنا <modalLink> بعد رمضان </modalLink>",
   "know-someone": "تنمو معنا في <modalLink> رمضان </modalLink>",
   "learning-plan": "خطط التعلم",
   "listen-to-radio": "استمع إلى راديو القرآن الكريم",
@@ -36,6 +38,8 @@
     "title": "رحلة نمو القرآن"
   },
   "qr-community": "اقرأ الآيات والتأملات المميزة لهذا اليوم",
+  "quran-in-year": "القرآن في عام",
+  "quran-in-year-cta": "قراءة هذا الأسبوع",
   "ramadan-activities-cta": "<link> اتبع <b> التقويم القرآني العالمي </b> للحصول على قراءات أسبوعية، وبودكاست ملهمة، ودعوة للتأمل! </link>",
   "ramadan": {
     "header": "أدوات لتعميق علاقتك بالقرآن الكريم",

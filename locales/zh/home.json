@@ -1,10 +1,12 @@
 {
   "achieve-quran-goals": "实现您的《古兰经》目标",
   "begin": "开始",
+  "calendar-cta": "日历",
   "chapters-and-verses": "章节和诗句",
   "continue-read": "继续阅读",
   "explore-topics": "探索主题",
   "first-time-reading": "第一次阅读《古兰经》？ <link>从这里开始</link>",
+  "grow-beyond-ramadan": "与我们一起成长<modalLink>超越斋月</modalLink>",
   "know-someone": "这个<modalLink>斋月与我们一起成长</modalLink>",
   "learning-plan": "学习计划",
   "listen-to-radio": "收听《古兰经》电台",
@@ -36,6 +38,8 @@
     "title": "古兰经成长之旅"
   },
   "qr-community": "阅读今天的精选经文和感想",
+  "quran-in-year": "一年读《古兰经》",
+  "quran-in-year-cta": "本周阅读",
   "ramadan-activities-cta": "<link>关注<b>全球古兰经日历</b>获取每周阅读、启发性播客和反思呼吁！ </link>",
   "ramadan": {
     "header": "加深与《古兰经》联系的工具",

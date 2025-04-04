@@ -1,29 +1,29 @@
+/* eslint-disable max-lines */
 /* eslint-disable react/no-multi-comp */
-import React from 'react';
+import React, { useMemo } from 'react';
 
 import classNames from 'classnames';
 import { NextPage, GetStaticProps } from 'next';
 import Head from 'next/head';
 import useTranslation from 'next-translate/useTranslation';
-import { useSelector } from 'react-redux';
 
 import styles from './index.module.scss';
 
 import ChapterAndJuzListWrapper from '@/components/chapters/ChapterAndJuzList';
-import HomepageFundraisingBanner from '@/components/Fundraising/HomepageFundraisingBanner';
 import CommunitySection from '@/components/HomePage/CommunitySection';
 import ExploreTopicsSection from '@/components/HomePage/ExploreTopicsSection';
 import HomePageHero from '@/components/HomePage/HomePageHero';
 import LearningPlansSection from '@/components/HomePage/LearningPlansSection';
 import MobileHomepageSections from '@/components/HomePage/MobileHomepageSections';
 import QuranGrowthJourneySection from '@/components/HomePage/QuranGrowthJourneySection';
+import QuranInYearSection from '@/components/HomePage/QuranInYearSection';
 import ReadingSection from '@/components/HomePage/ReadingSection';
 import NextSeoWrapper from '@/components/NextSeoWrapper';
-import { selectIsHomepageBannerVisible } from '@/redux/slices/fundraisingBanner';
 import { isLoggedIn } from '@/utils/auth/login';
 import { getAllChaptersData } from '@/utils/chapter';
 import { getLanguageAlternates } from '@/utils/locale';
 import { getCanonicalUrl } from '@/utils/navigation';
+import getCurrentDayAyah from '@/utils/quranInYearCalendar';
 import { isMobile } from '@/utils/responsive';
 import { ChaptersResponse } from 'types/ApiResponses';
 import ChaptersData from 'types/ChaptersData';
@@ -36,7 +36,7 @@ type IndexProps = {
 const Index: NextPage<IndexProps> = ({ chaptersResponse: { chapters } }): JSX.Element => {
   const { t, lang } = useTranslation('home');
   const isUserLoggedIn = isLoggedIn();
-  const isFundraisingBannerVisible = useSelector(selectIsHomepageBannerVisible);
+  const todayAyah = useMemo(() => getCurrentDayAyah(), []);
 
   return (
     <>
@@ -55,17 +55,23 @@ const Index: NextPage<IndexProps> = ({ chaptersResponse: { chapters } }): JSX.El
             <div className={classNames(styles.flowItem, styles.fullWidth, styles.homepageCard)}>
               <ReadingSection />
             </div>
-            {isFundraisingBannerVisible && (
-              <div className={classNames(styles.flowItem, styles.fullWidth, styles.homepageCard)}>
-                <HomepageFundraisingBanner />
-              </div>
-            )}
             {isMobile() ? (
-              <MobileHomepageSections isUserLoggedIn={isUserLoggedIn} />
+              <MobileHomepageSections isUserLoggedIn={isUserLoggedIn} todayAyah={todayAyah} />
             ) : (
               <>
                 {isUserLoggedIn ? (
                   <>
+                    {todayAyah && (
+                      <div
+                        className={classNames(
+                          styles.flowItem,
+                          styles.fullWidth,
+                          styles.homepageCard,
+                        )}
+                      >
+                        <QuranInYearSection />
+                      </div>
+                    )}
                     <div
                       className={classNames(styles.flowItem, styles.fullWidth, styles.homepageCard)}
                     >
@@ -89,6 +95,17 @@ const Index: NextPage<IndexProps> = ({ chaptersResponse: { chapters } }): JSX.El
                     >
                       <ExploreTopicsSection />
                     </div>
+                    {todayAyah && (
+                      <div
+                        className={classNames(
+                          styles.flowItem,
+                          styles.fullWidth,
+                          styles.homepageCard,
+                        )}
+                      >
+                        <QuranInYearSection />
+                      </div>
+                    )}
                     <div
                       className={classNames(styles.flowItem, styles.fullWidth, styles.homepageCard)}
                     >
